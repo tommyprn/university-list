@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form{
+    padding: 20px;
+    border:1px solid black;
+    border-radius:8px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    width: 20vw;
+}
+
+.input{
+    padding-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.submit{
+    background-color: rgb(36, 111, 215);
+    border: none;
+    padding: 8px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
