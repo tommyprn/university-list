@@ -11,7 +11,7 @@ const Login=()=> {
     const handleLogin = () => {
         if(username&&password!==''){
             localStorage.setItem('user',username);
-            navigate("/");
+            navigate("/Home");
         }else{
             alert('username atau password belum diisi, mohon periksa kembali.')
         }

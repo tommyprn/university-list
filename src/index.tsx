@@ -13,11 +13,11 @@ import './index.css';
 
 const router = createBrowserRouter([
   {
-    path: "/login",
+    path: "/",
     element: <Login/> ,
   },
   {
-    path: "/",
+    path: "/Home",
     element: <Home/> ,
   },
  
